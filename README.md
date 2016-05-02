@@ -24,7 +24,7 @@ Some examples of supported files:
 * Ruby Script - `.rb` - `#!/usr/bin/env ruby`
 * Python Script - `.py` - `#!/usr/bin/env python`
 
-This can of course vary a bit on how your mac is configured.
+This can of course vary a bit depending on how your Mac is configured.
 
 **Installation**
 
@@ -35,10 +35,10 @@ This can of course vary a bit on how your mac is configured.
 **Configuration**
 
 1. Press “Configure scripts..”
-2. Add search path to the script you want to launch
+2. Add search paths to the scripts you want to launch
 
 Please note that some actions (like window resizing) requires that you add “Hack with flic” to the accessibility list under the privacy settings of your mac.
 
 **Scripts**
 
-We have added a few pre-made scripts that you can find in this repository. All of them are very small and should be self explanatory. If you have any cool scripts of your own that you believe could be useful to other people, then feel free to send a pull request on this repository.
+We have added a few pre-made scripts that you can find in this repository. All of them are very small and should be self explanatory. If you have any cool scripts of your own that you believe could be useful to other people, then feel free to submit a pull request on this repository.
