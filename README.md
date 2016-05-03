@@ -1,6 +1,6 @@
 # hax-with-flic-osx
 
-This is a basic Flic app for mac. This application allows you to execute your own scripts on Flic button presses. This requires OSX 10.10 or above operating systems running on a machine that supports Bluetooth Low Energy. It is unclear exactly which machines that have Bluetooth Low Energy support, but if it is of model year 2013 or later then it should be fine. A Bluetooth Low Energy compatible USB can in some cases work as well. This application is in its Alpha state and may change a lot in the future.
+This is a basic Flic app for mac. This application allows you to execute your own scripts on Flic button presses. This requires OSX 10.10 or above operating systems running on a machine that supports Bluetooth Low Energy. It is unclear exactly which machines that have Bluetooth Low Energy support, but if it is of model year 2013 or later then it should be fine. A Bluetooth Low Energy compatible USB can in some cases work as well. This application is in an Alpha stage and may change a lot without notice.
 
 **Important notice**
 
@@ -28,16 +28,17 @@ This can of course vary a bit depending on how your Mac is configured.
 
 **Installation**
 
-1. Mount the dmg file and drag and drop the HaxWithFlic.app to your applications folder
-2. When launching the application from the applications folder the first time it will ask you if you want to open a file that was downloaded from the internet. Press open.
-3. Press on the flic icon in the menu bar and start using the application. For example, press scan if you want to add a new Flic.
+1. Download the repository by pressing the "Download ZIP" button. 
+2. Mount the dmg file and drag and drop the HaxWithFlic.app to your applications folder.
+3. When launching the application from the applications folder the first time it will ask you if you want to open a file that was downloaded from the internet. Press open.
+4. Press on the flic icon in the menu bar and start using the application. For example, press scan if you want to add a new Flic.
 
 **Configuration**
 
-1. Press “Configure scripts..”
-2. Add search paths to the scripts you want to launch
+1. Press “Configure scripts..”.
+2. Add search paths to the scripts you want to launch.
 
-Please note that some actions (like window resizing) requires that you add “HackWithFlic” to the accessibility list under the privacy settings of your mac.
+Please note that some actions (like window resizing) requires that you add “HackWithFlic” to the accessibility list under the privacy settings of your mac. You can turn off the audio notifications by unchecking the "Play audio" option. If you are using the button for tasks that require very low latency then you can lower the latency by checking the "Low latency mode" option, but remember that this will decrease the battery life of your flic significantly. The low latency mode reduces the latency down to 45ms from the normal 280ms. Notice however that these are worst case times and that the expected time is about half of that. The button down event always arrives before any other event, so it can be used for time critical applications.
 
 **Scripts**
 
