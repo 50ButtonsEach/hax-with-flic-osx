@@ -1,6 +1,6 @@
 # hax-with-flic-osx
 
-This is a basic Flic app for mac. This application allows you to execute your own scripts on Flic button presses. This requires OSX 10.10 or above operating systems running on a machine that supports Bluetooth Low Energy. It is unclear exactly which machines that have Bluetooth Low Energy support, but if it is of model year 2013 or later then it should be fine. A Bluetooth Low Energy compatible USB can in some cases work as well.
+This is a basic Flic app for mac. This application allows you to execute your own scripts on Flic button presses. This requires OSX 10.10 or above operating systems running on a machine that supports Bluetooth Low Energy. It is unclear exactly which machines that have Bluetooth Low Energy support, but if it is of model year 2013 or later then it should be fine. A Bluetooth Low Energy compatible USB can in some cases work as well. This application is in its Alpha state and may change a lot in the future.
 
 **Important notice**
 
@@ -29,8 +29,8 @@ This can of course vary a bit depending on how your Mac is configured.
 **Installation**
 
 1. Mount the dmg file and drag and drop the HaxWithFlic.app to your applications folder
-2. You may have to control click on it to launch it
-3. Press on the flic icon in the menu bar and scan for your Flic
+2. When launching the application from the applications folder the first time it will ask you if you want to open a file that was downloaded from the internet. Press open.
+3. Press on the flic icon in the menu bar and start using the application. For example, press scan if you want to add a new Flic.
 
 **Configuration**
 
