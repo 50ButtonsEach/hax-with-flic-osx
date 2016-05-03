@@ -1,6 +1,6 @@
 # hax-with-flic-osx
 
-This is a basic Flic app for mac. This application allows you to execute your own scripts on Flic button presses. This requires OSX 10.10 or above operating systems running on a machine that supports Bluetooth Low Energy. It is unclear exactly which machines that have Bluetooth Low Energy support, but if it is of model year 2013 or later then it should be fine.
+This is a basic Flic app for mac. This application allows you to execute your own scripts on Flic button presses. This requires OSX 10.10 or above operating systems running on a machine that supports Bluetooth Low Energy. It is unclear exactly which machines that have Bluetooth Low Energy support, but if it is of model year 2013 or later then it should be fine. A Bluetooth Low Energy compatible USB can in some cases work as well.
 
 **Important notice**
 
@@ -28,7 +28,7 @@ This can of course vary a bit depending on how your Mac is configured.
 
 **Installation**
 
-1. Drag and drop the application to your applications folder
+1. Mount the dmg file and drag and drop the HaxWithFlic.app to your applications folder
 2. You may have to control click on it to launch it
 3. Press on the flic icon in the menu bar and scan for your Flic
 
@@ -37,8 +37,56 @@ This can of course vary a bit depending on how your Mac is configured.
 1. Press “Configure scripts..”
 2. Add search paths to the scripts you want to launch
 
-Please note that some actions (like window resizing) requires that you add “Hack with flic” to the accessibility list under the privacy settings of your mac.
+Please note that some actions (like window resizing) requires that you add “HackWithFlic” to the accessibility list under the privacy settings of your mac.
 
 **Scripts**
 
 We have added a few pre-made scripts that you can find in this repository. All of them are very small and should be self explanatory. If you have any cool scripts of your own that you believe could be useful to other people, then feel free to submit a pull request on this repository.
+
+
+# Scripts
+
+**Clipboard-Tools**
+
+* `removeDuplicateLines.sh` Goes through your clipboard and removes all duplicate lines.
+* `reverseLines.sh` Goes through your clipboard and reverses the characters on each line.
+* `sortLines.sh` Goes through your clipboard and sorts all lines.
+* `textToSpeech.sh` Takes the contents of your clipboard and plays it using text to speech.
+
+**Desktop-Tools**
+
+* `interactiveScreenshot.sh` Lets you select an area of your screen that you want to take a screenshot of. Resulting image is saved to your desktop folder.
+* `maximizeApplicationWindow.sh` Maximizes the size of the frontmost window of the active application.
+* `screenshot.sh` Takes a screenshot of your full desktop. Resulting image is saved to your desktop.
+* `splitApplicationWindows.AppleScript` Resizes the two frontmost windows of your active application and displays them side by side.
+
+**Finder-Tools**
+
+* `copyPathToClipboard.AppleScript` Copies the path of the selected item in your frontmost finder window to your clipboard.
+* `moveSelectedFilesToFolder.AppleScript` Lets you move the selected items in your frontmost finder window to a different location.
+
+**General**
+
+* `currentDateToClipboard.AppleScript` Copies the current time and date to your clipboard.
+* `currentDateToClipboardAndPaste.AppleScript` Same as above but also pastes to your active application.
+* `displayCurrentDateInDialog.AppleScript` Displays a dialog window with the current time and date.
+* `saveClipboardToFile.AppleScript` Lets you save the contents of the clipboard to a new file at a location that you choose.
+* `startCalculator.AppleScript` Launches the Mac Calculator app.
+
+**Google-Chrome**
+
+* `chrome-CloseFrontWindow.AppleScript` Closes the frontmost chrome window. This closes all tabs in that window.
+* `chrome-Reload.AppleScript` Reload the selected tab of the frontmost chrome window.
+* `chrome-ShowSourceFile.AppleScript` Opens a new tab showing the source code of the selected tab of the frontmost chrome window.
+
+**Keynote**
+
+* `keynoteNextSlide.sh` Display next slide. This actually only simulates a keypress on the space key.
+* `keynotePreviousSlide.sh` Display previous slide. This simulates a press on the p-key.
+
+**Spotify**
+
+* `spotify-NextTrack.AppleScript` Moves to the next track. Also works with Spotify connect.
+* `spotify-PlayPause.AppleScript` Play or Pause the music. Also works with Spotify connect.
+* `spotify-PreviousTrack.AppleScript` Moves to the previous track. Also works with Spotify connect.
+
