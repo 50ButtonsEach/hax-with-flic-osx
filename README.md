@@ -1,6 +1,10 @@
 # hax-with-flic-osx
 
-This is a basic Flic app for mac. This application allows you to execute your own scripts on Flic button presses. This requires OSX 10.10 or above operating systems running on a machine that supports Bluetooth Low Energy. It is unclear exactly which machines that have Bluetooth Low Energy support, but if it is of model year 2013 or later then it should be fine. A Bluetooth Low Energy compatible USB can in some cases work as well. This application is in an Alpha stage and may change a lot without notice.
+This is a basic Flic app for Mac. It is in an Alpha stage and its functionality may change a lot in future versions without notice. This application allows you to execute your own scripts on Flic button presses. This requires OSX 10.10 or above operating systems running on a machine that supports Bluetooth Low Energy. It is unclear exactly which machines that have Bluetooth Low Energy support, but Apple supposedly started the transition around 2012. Running the following in a terminal will output the Bluetooth LMP Version:
+
+	system_profiler -detailLevel full SPBluetoothDataType | grep "LMP Version"
+
+Version 0x6 was the first one that supported Low Energy, but we cannot guarantee that this will be correct for all computers. We have noticed that using a Bluetooth Low Energy compatible USB dongle can also work in some cases.
 
 **Important notice**
 
@@ -38,7 +42,7 @@ This can of course vary a bit depending on how your Mac is configured.
 1. Press “Configure scripts..”.
 2. Add search paths to the scripts you want to launch.
 
-Please note that some actions (like window resizing) requires that you add “HackWithFlic” to the accessibility list under the privacy settings of your mac. You can turn off the audio notifications by unchecking the "Play audio" option. If you are using the button for tasks that require very low latency then you can lower the latency by checking the "Low latency mode" option, but remember that this will decrease the battery life of your flic significantly. The low latency mode reduces the latency down to 45ms from the normal 280ms. Notice however that these are worst case times and that the expected time is about half of that. The button down event always arrives before any other event, so it can be used for time critical applications.
+Please note that some actions (like window resizing) requires that you add “HackWithFlic” to the accessibility list under the privacy settings of your mac. You can turn off the audio notifications by unchecking the "Play audio" option. If you are using the button for tasks that require very low latency then you can lower the latency by checking the "Low latency mode" option, but remember that this will decrease the battery life of your Flic significantly. The low latency mode reduces the latency down to 45ms from the normal 280ms. Notice, however, that these are worst case times and that the expected time is about half of that. The button down event always arrives before any other event, so it can be used for time critical applications.
 
 **Scripts**
 
