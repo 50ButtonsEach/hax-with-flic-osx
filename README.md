@@ -77,6 +77,8 @@ We have added a few pre-made scripts that you can find in this repository. All o
 * `displayCurrentDateInDialog.AppleScript` Displays a dialog window with the current time and date.
 * `saveClipboardToFile.AppleScript` Lets you save the contents of the clipboard to a new file at a location that you choose.
 * `startCalculator.AppleScript` Launches the Mac Calculator app.
+* `displaysleep.sh` Shuts down the display, system continues to run in the background. (Added by [jonashoechst](https://github.com/jonashoechst))
+* `sleep.sh` Puts system to sleep, no network working anymore. (Added by [jonashoechst](https://github.com/jonashoechst))
 
 **Google-Chrome**
 
