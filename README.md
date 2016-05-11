@@ -86,6 +86,10 @@ We have added a few pre-made scripts that you can find in this repository. All o
 * `chrome-Reload.AppleScript` Reload the selected tab of the frontmost chrome window.
 * `chrome-ShowSourceFile.AppleScript` Opens a new tab showing the source code of the selected tab of the frontmost chrome window.
 
+**Hue**
+
+* `hue_switch.sh` Toggle all your Philips Hue lights on/off. (Added by [patricks](https://github.com/patricks))
+
 **Keynote**
 
 * `keynoteNextSlide.sh` Display next slide. This actually only simulates a keypress on the space key.
