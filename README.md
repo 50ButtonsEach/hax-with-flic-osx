@@ -101,3 +101,17 @@ We have added a few pre-made scripts that you can find in this repository. All o
 * `spotify-PlayPause.AppleScript` Play or Pause the music. Also works with Spotify connect.
 * `spotify-PreviousTrack.AppleScript` Moves to the previous track. Also works with Spotify connect.
 
+**VLC**
+
+* `vlc-Fullscreen.AppleScript` Toggle fullscreen.
+* `vlc-Mute.AppleScript` Toggle mute.
+* `vlc-NextPlaylistItem.AppleScript` Jump to next item in playlist.
+* `vlc-PlayPause.AppleScript` Toggle play/pause.
+* `vlc-PreviousPlaylistItem.AppleScript` Jump to previous item in playlist.
+* `vlc-StepBackward.AppleScript` Step backward. Step length can be configured.
+* `vlc-StepForward.AppleScript` Step forward. Step length can be configured.
+* `vlc-StopPlayback.AppleScript` Stop the current playback.
+* `vlc-VolumeDown.AppleScript` Decrease volume by one step. Step length can be configured.
+* `vlc-VolumeUp.AppleScript` Increase volume by one step. Step length can be configured.
+
+
