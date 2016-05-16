@@ -4,7 +4,7 @@ This is a basic Flic app for Mac. It is in an Alpha stage and its functionality 
 
 	system_profiler -detailLevel full SPBluetoothDataType | grep "LMP Version"
 
-Version 0x6 was the first one that supported Low Energy, but we cannot guarantee that this will be correct for all computers. We have noticed that using a Bluetooth Low Energy compatible USB dongle can also work in some cases.
+Version 0x6 was the first one that supported Low Energy, but we cannot guarantee that this will be correct for all computers. Using a Bluetooth Low Energy compatible USB dongle should also work if it is just configured correctly.
 
 **Important notice**
 
@@ -100,6 +100,16 @@ We have added a few pre-made scripts that you can find in this repository. All o
 * `spotify-NextTrack.AppleScript` Moves to the next track. Also works with Spotify connect.
 * `spotify-PlayPause.AppleScript` Play or Pause the music. Also works with Spotify connect.
 * `spotify-PreviousTrack.AppleScript` Moves to the previous track. Also works with Spotify connect.
+
+**Sonos**
+
+Notice: All Sonos scripts requires that you find the IP address of your Sonos and then change the script accordingly.
+
+* `sonos-NextTrack.sh` Skip to next track in your current playing playlist.
+* `sonos-Pause.sh` Pause the playback.
+* `sonos-Play.sh` Play the previously paused playback.
+* `sonos-PlayPauseToggle.sh` Toggle between play and pause.
+* `sonos-PreviousTrack.sh` Skip to the previous track in your current playing playlist.
 
 **VLC**
 
