@@ -1,3 +1,7 @@
+#hax-with-flic-osx 0.1.6
+
+Minor bug fix release.
+
 #hax-with-flic-osx 0.1.5
 
 Minor bug fix release.
