@@ -100,6 +100,7 @@ We have added a few pre-made scripts that you can find in this repository. All o
 * `spotify-NextTrack.AppleScript` Moves to the next track. Also works with Spotify connect.
 * `spotify-PlayPause.AppleScript` Play or Pause the music. Also works with Spotify connect.
 * `spotify-PreviousTrack.AppleScript` Moves to the previous track. Also works with Spotify connect.
+* `pauseSpotifyAndSleep.sh` Pauses Spotify if a track is currently playing and then puts mac to sleep. (Added by [echo0101](https://github.com/echo0101))
 
 **Sonos**
 
