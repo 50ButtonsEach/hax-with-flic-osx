@@ -89,6 +89,9 @@ We have added a few pre-made scripts that you can find in this repository. All o
 **Hue**
 
 * `hue_switch.sh` Toggle all your Philips Hue lights on/off. (Added by [patricks](https://github.com/patricks))
+* `hue_all_off.rb` Turns off all lights. (Added by [patricks](https://github.com/patricks))
+* `hue_all_on.rb` Turns on all lights. (Added by [patricks](https://github.com/patricks))
+* `hue_switch.rb` Switches the current state of all lights. (Added by [patricks](https://github.com/patricks))
 
 **Keynote**
 
