@@ -1,6 +1,10 @@
 # hax-with-flic-osx
 
-This is a basic Flic app for Mac. It is in an Alpha stage and its functionality may change a lot in future versions without notice. This application allows you to execute your own scripts on Flic button presses. This requires OSX 10.10 or above operating systems running on a machine that supports Bluetooth Low Energy. It is unclear exactly which machines that have Bluetooth Low Energy support, but Apple supposedly started the transition around 2012. Running the following in a terminal will output the Bluetooth LMP Version:
+This is a basic app for Mac that integrates with Flic buttons.
+
+![](/Screenshot.png?raw=true "")
+
+The application allows you to execute your own scripts on Flic button presses. This requires OSX 10.10 or above operating systems running on a machine that supports Bluetooth Low Energy. It is unclear exactly which machines that have Bluetooth Low Energy support, but Apple supposedly started the transition around 2012. Running the following in a terminal will output the Bluetooth LMP Version:
 
 	system_profiler -detailLevel full SPBluetoothDataType | grep "LMP Version"
 
@@ -12,7 +16,7 @@ Since this application will blindly execute the scripts that you tell it to exec
 
 **How it works**
 
-This application will allow you to connect one Flic button to your Mac computer and then select which scripts that you wish to execute on `click`, `double click`, `hold`, `up` and `down`.
+This application will allow you to connect multiple Flic buttons to your Mac computer and then select which scripts that you wish to execute on `click`, `double click`, `hold`, `up` and `down`.
 
 **Supported script files**
 

@@ -1,3 +1,11 @@
+#hax-with-flic-osx 0.2.3
+
+**Changes**
+
+* Added support for multiple buttons.
+* Improved button connectivity.
+* Script text fields now truncated on the left to improve readability.
+
 #hax-with-flic-osx 0.1.6
 
 Minor bug fix release.
