@@ -1,3 +1,10 @@
+#hax-with-flic-osx 0.2.4
+
+**Changes**
+
+* Improved stability on macOS Sierra.
+* Fixed a bug that caused button scanning to fail sometimes.
+
 #hax-with-flic-osx 0.2.3
 
 **Changes**
