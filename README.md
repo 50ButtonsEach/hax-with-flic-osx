@@ -1,6 +1,10 @@
+# NOTE
+
+This app only supports the first generation Flic buttons and is no longer in development. Instead we suggest using the newer [Flic Mac App](https://flic.io/mac-app). Alternatively, Flic 2 buttons can simulate a keyboard and be connected as a generic Bluetooth keyboard. See [Flic Universal](https://flic.io/flic-universal) for more info.
+
 # hax-with-flic-osx
 
-This is a basic app for Mac that integrates with Flic buttons.
+This is a basic app for Mac that integrates with Flic 1 buttons.
 
 ![](/Screenshot.png?raw=true "")
 
